@@ -1,0 +1,90 @@
+    
+	    .ui-jqgrid .ui-state-highlight { background: silver; }
+
+input[type=text1] {
+    width: 130px;
+    height:35px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("<c:url value='/resources/images/find1.png'/>");
+    background-size: 20px 20px;
+    background-position: 15px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text1]:focus {
+    width: 20%;
+}
+.green_row{
+            color:green !important;
+           
+        }
+          .red_row{
+            color:red !important;
+           
+        }
+        .breadcrumb{
+        background:#3b96a2;
+        }
+	   .breadcrumb li,.breadcrumb li a{
+	   color:white;
+	   }
+	   .breadcrumb>.active {
+    color: gold;
+}
+#jqgrid{
+min-width: 800px;
+}
+#gbox_packages-grid{
+box-shadow:0 0 10px;
+width:100% !important;
+}
+#jqgrid .btn a{
+color:white;
+text-transform:capatilize;
+}
+ #jqgrid .ui-jqgrid .ui-jqgrid-htable .ui-jqgrid-labels th div {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: orange !important ;
+    margin: 2px 2px;
+    padding: 10px !important;
+}
+
+
+#jqgrid .ui-jqgrid.ui-jqgrid-bootstrap tr.jqfoot>td, #jqgrid .ui-jqgrid.ui-jqgrid-bootstrap tr.jqgroup>td, #jqgrid .ui-jqgrid.ui-jqgrid-bootstrap tr.jqgrow>td {
+   font-size: 12px;
+     font-family:cursive;
+      text-align:center !important;   
+    padding: 0.8em .3em !important;
+}
+#jqgrid .ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar,#jqgrid .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption {
+   padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gold;
+    }
+  
+  #jqgrid .ui-jqgrid .ui-jqgrid-btable {
+    table-layout: fixed;
+    margin: 0;
+    background: white;
+    }
+   #jqgrid .ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar, #jqgrid .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption {
+    background-color: #3b96a2;
+    -ms-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -ms-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
